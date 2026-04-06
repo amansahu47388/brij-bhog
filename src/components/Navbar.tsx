@@ -118,10 +118,10 @@ const Navbar = () => {
             src={Logo}
             alt="Brij Bhog Logo"
             className="
-              h-10 
-              sm:h-12 
-              md:h-14 
-              lg:h-16 
+              h-16
+              sm:h-18 
+              md:h-20
+              lg:h-22 
               w-auto 
               max-h-full 
               object-contain
