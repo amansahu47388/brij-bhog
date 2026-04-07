@@ -55,13 +55,32 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+  height: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
 @layer base {
   * {
     @apply border-border;
+    -webkit-overflow-scrolling: touch;
+    -webkit-tap-highlight-color: transparent;
   }
 
   body {
     @apply bg-background text-foreground font-body antialiased;
+    overflow-x: hidden;
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+    text-rendering: optimizeLegibility;
+  }
+
+  /* Force GPU acceleration on main sections for smoother scrolling */
+  section {
+    transform: translateZ(0);
+    backface-visibility: hidden;
   }
 
   h1, h2, h3, h4, h5, h6 {

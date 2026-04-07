@@ -133,10 +133,18 @@ const Loader = ({ onComplete }: { onComplete: () => void }) => {
   const [isVideoLoaded, setIsVideoLoaded] = useState(false);
 
   useEffect(() => {
+    // Lock scrolling while loader is active
+    document.body.style.overflow = "hidden";
+    
     // Attempt to speed up the video if already ready
     if (videoRef.current && isVideoLoaded) {
       videoRef.current.playbackRate = 2.0;
     }
+
+    return () => {
+      // Restore scrolling on unmount
+      document.body.style.overflow = "auto";
+    };
   }, [isVideoLoaded]);
 
   const handleVideoLoad = () => {

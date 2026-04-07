@@ -171,6 +171,17 @@ import React, { useState } from "react";
 const Login = () => {
   const [open, setOpen] = useState(true);
 
+  React.useEffect(() => {
+    if (open) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "auto";
+    }
+    return () => {
+      document.body.style.overflow = "auto";
+    };
+  }, [open]);
+
   if (!open) return null;
 
   return (

@@ -120,6 +120,8 @@ const Testimonials = () => {
               <img
                 src={item.img}
                 className="absolute inset-0 w-full h-full object-cover opacity-30 transition-transform duration-700 group-hover:scale-110"
+                loading="lazy"
+                decoding="async"
               />
 
               <div className="relative z-10">

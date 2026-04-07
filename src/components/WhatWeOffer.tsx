@@ -66,9 +66,11 @@ const WhatWeOffer = () => {
                 <img
                   src={service.image}
                   alt={service.title}
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300 transform-gpu"
                   width="400"
                   height="300"
+                  loading="lazy"
+                  decoding="async"
                 />
 
               </div>

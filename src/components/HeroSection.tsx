@@ -59,7 +59,7 @@
 
 // // // // const HeroSection = () => {
 // // // //   return (
-// // // //     <section className="relative min-h-screen flex flex-col">
+// // // //     <section className="relative min-h-[100dvh] flex flex-col">
       
 // // // //       {/* ✅ Background image और overlay हटा दिए, ImageSlider लगाया */}
 // // // //       <div className="w-full">
@@ -110,7 +110,7 @@ import ImageSlider from "@/pages/ImageSlider";
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-screen flex flex-col">
+    <section className="relative min-h-[100dvh] flex flex-col">
       
       {/* Image Slider */}
       <div className="relative w-full">
@@ -165,7 +165,7 @@ export default HeroSection;
 
 // // const HeroSection = () => {
 // //   return (
-// //     <section className="relative min-h-screen flex flex-col">
+// //     <section className="relative min-h-[100dvh] flex flex-col">
 // //       {/* Image Slider */}
 // //       <div className="relative w-full">
 // //         <ImageSlider />
@@ -218,7 +218,7 @@ export default HeroSection;
 
 // const HeroSection = () => {
 //   return (
-//     <section className="relative min-h-screen flex flex-col">
+//     <section className="relative min-h-[100dvh] flex flex-col">
 //       {/* Image Slider */}
 //       <div className="relative w-full">
 //         <ImageSlider />

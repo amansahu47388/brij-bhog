@@ -70,18 +70,24 @@ const TastOfTemple = () => {
           src="https://images.unsplash.com/photo-1555244162-803834f70033"
           alt="Catering Food"
           className="rounded-lg shadow-md"
+          loading="lazy"
+          decoding="async"
         />
 
         <img
           src="https://images.unsplash.com/photo-1504674900247-0877df9cc836"
           alt="Buffet Setup"
           className="rounded-lg shadow-md"
+          loading="lazy"
+          decoding="async"
         />
 
         <img
           src="https://images.unsplash.com/photo-1464366400600-7168b8af9bc3"
           alt="Event Catering"
           className="rounded-lg shadow-md"
+          loading="lazy"
+          decoding="async"
         />
 
       </div>
