@@ -6,11 +6,12 @@ import Testimonials from "@/components/Testimonials";
 import CTASection from "@/components/CTASection";
 import TasteOfTemple from "./TastOfTemple";
 import WhatWeOffer from "@/components/WhatWeOffer";
-import Login from "./Login";
+// import Login from "./Login";
 import ClientTemplate from "../pages/ClientTemplate";
 import ImageSlider from "./ImageSlider";
 import { useState } from "react";
-import Loader from "./Loader";
+import { SEO } from "@/components/SEO";
+// import Loader from "./Loader";
 const Index = () => {
 
 
@@ -18,12 +19,17 @@ const Index = () => {
 
   return (
     <>
+      <SEO 
+        title="Brij Bhoj - Best Caterers in Bhopal" 
+        description="Brijbhog Caterers offers the best caterers in Bhopal with premium catering services in Bhopal. Searching for the best catering services near me ,We deliver delicious food, elegant setups, and unforgettable event experiences." 
+        keywords={["Best Caterers in Bhopal", "Best Catering services in Bhopal", "Premium Catering services in Bhopal"]}
+      />
 
     {/* Video pehle chalega, khatam hone par gayab */}
-      {showVideo && (
+      {/* {showVideo && (
         <Loader onComplete={() => setShowVideo(false)} />
-      )}
-      <Login/>
+      )} */}
+      {/* <Login/> */}
       <HeroSection />
       {/* <ImageSlider/> */}
       

@@ -10,7 +10,7 @@ const Footer = () => {
           <div>
             <h3 className="text-3xl font-bold mb-4">Brij Bhog</h3>
             <p className="text-primary-foreground/70 leading-relaxed">
-              Crafting unforgettable culinary experiences for your most cherished moments. From intimate gatherings to grand celebrations.
+              Brij Bhog, one of the best caterers in Bhopal, crafts unforgettable culinary experiences for your most cherished moments, from intimate gatherings to grand celebrations with exceptional taste and elegant service.
             </p>
             {/* <div className="flex gap-4 mt-6">
               <a href="#" className="text-primary-foreground/60 hover:text-accent transition-colors" aria-label="Instagram">

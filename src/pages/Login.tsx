@@ -166,12 +166,22 @@
 
 // export default Login;
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 const Login = () => {
-  const [open, setOpen] = useState(true);
+  const [open, setOpen] = useState(() => {
+    // Check if the popup has already been shown in this session
+    return !sessionStorage.getItem("cateringPopupShown");
+  });
 
-  React.useEffect(() => {
+  useEffect(() => {
+    if (open) {
+      // Mark as shown immediately when opened
+      sessionStorage.setItem("cateringPopupShown", "true");
+    }
+  }, [open]);
+
+  useEffect(() => {
     if (open) {
       document.body.style.overflow = "hidden";
     } else {
@@ -245,7 +255,6 @@ className="absolute top-16 md:top-6 right-4 bg-white w-9 h-9 rounded-full flex i
 
             <textarea
               placeholder="Tell us about your event..."
-              rows="3"
               className="w-full border p-3 rounded outline-none focus:ring-2 focus:ring-orange-400"
             ></textarea>
 
