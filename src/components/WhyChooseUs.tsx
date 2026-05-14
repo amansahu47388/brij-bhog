@@ -41,7 +41,7 @@ const WhyChooseUs = () => {
       {/* Heading - ZERO GAP */}
       <div className="text-center max-w-3xl mx-auto mb-0 md:mb-2">
         <p className="text-gray-500 italic mb-1 text-sm md:text-base">
-          Premium Catering Services
+          Best Caterers in Bhopal
         </p>
         <h2 className="text-3xl md:text-4xl font-serif tracking-wide mb-2">
           WHY CHOOSE BRIJ BHOG?

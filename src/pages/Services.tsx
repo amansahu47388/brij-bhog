@@ -68,7 +68,7 @@ const services = [
 
       {/* Premium Services Title */}
       <section className="py-32 bg-[#0f172a] text-white text-center">
-        <h2 className="text-4xl font-bold mt-4">Our Premium Services</h2>
+        <h2 className="text-4xl font-bold mt-4">Our Best Services</h2>
       </section>
 
       {/* Services Cards */}
@@ -179,7 +179,7 @@ const services = [
       </p>
 
       <ul className="space-y-2 text-gray-300 text-sm">
-        <li>✔ Premium Catering Services</li>
+        <li>✔ Best Catering Services</li>
         <li>✔ Customized Menu Planning</li>
         <li>✔ Professional Event Management</li>
       </ul>
@@ -223,7 +223,6 @@ const services = [
 
         <textarea
           placeholder="Event Details"
-          rows="3"
           className="w-full border rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-gray-800"
         ></textarea>
 

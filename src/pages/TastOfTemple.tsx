@@ -12,15 +12,11 @@ const TastOfTemple = () => {
       {/* Title Section */}
       <div className="max-w-5xl mx-auto mb-10">
         <h1 className="text-3xl font-semibold text-gray-800 mb-4">
-          🍽 Brij Bhog Catering – Premium Veg Catering Services in Bhopal
+          🍽 Brij Bhog Catering – Best Catering Services in Bhopal
         </h1>
 
         <p className="text-gray-600">
-          Brij Bhog Catering provides delicious and high-quality vegetarian
-          catering services for weddings, receptions, corporate events and
-          family celebrations in Bhopal. We focus on authentic flavors,
-          hygienic preparation and elegant food presentation to create
-          memorable dining experiences for every event.
+          Brij Bhog Catering, one of the best caterers in Bhopal, provides delicious and high-quality vegetarian catering services for weddings, receptions, corporate events, and family celebrations, focusing on authentic flavors, hygienic preparation, and elegant presentation to create memorable dining experiences.
         </p>
       </div>
 
@@ -222,8 +218,7 @@ const TastOfTemple = () => {
 </div>
 
 
-{/* 
-
+{/*
       <div className="max-w-5xl mx-auto border rounded-lg p-6 shadow-sm mb-12">
         <h2 className="text-xl font-semibold mb-4">
           ✨ Our Catering Highlights

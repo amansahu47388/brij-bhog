@@ -157,7 +157,7 @@ const venueData = {
     title: "Elegant Green",
     tagline: "A Perfect Luxury Lawn for Grand Weddings",
     description:
-      "Elegant Green is a premium lawn venue designed for luxurious weddings, receptions, and grand celebrations. Surrounded by greenery with modern facilities, it provides a beautiful setting for unforgettable events.",
+      "Elegant Green is a Best lawn venue designed for luxurious weddings, receptions, and grand celebrations. Surrounded by greenery with modern facilities, it provides a beautiful setting for unforgettable events.",
     location: "Bhopal",
     capacity: "600 Guests",
     parking: "200 Cars",
